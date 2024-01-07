@@ -1,94 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Netflix</title>
-    <link rel="stylesheet" href="style.css" />
-    <link rel="icon" href="last.webp" />
-    <script
-      src="https://kit.fontawesome.com/f613a155c9.js"
-      crossorigin="anonymous"
-    ></script>
-  </head>
-  <body>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix Login Page | CodingNepal</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
     <nav>
-      <a href="#"
-        ><img src="https://tinyurl.com/netflixsvglogo" alt="logo"
-      /></a>
+        <a href="#"><img src="logo.svg" alt="logo"></a>
     </nav>
     <div class="form-wrapper">
-      <h2>Sign In</h2>
-      <form action="#" id="input">
-        <div class="form-control">
-          <input
-            type="text"
-            id="email"
-            name="email"
-            required
-            autocomplete="email"
-            placeholder="Email or phone number"
-          />
-        </div>
-        <div class="form-control1">
-          <input
-            type="password"
-            id="password"
-            name="password"
-            required
-            autocomplete="current-password"
-            placeholder="Password"
-          />
-        </div>
-        <a href="http://127.0.0.1:5500/index.html"
-          ><button type="submit">Sign In</button></a
-        >
-        <div class="form-help">
-          <div class="remember-me">
-            <input type="checkbox" id="remember-me" name="remember-me" />
-            <label for="remember-me">Remember me</label>
-          </div>
-          <a href="#">Need help?</a>
-        </div>
-      </form>
-      <p>New to Netflix? <a href="#">Sign up now</a></p>
-      <small>
-        This page is protected by Google reCAPTCHA to ensure you are not a bot.
-        <a href="#">Learn more.</a>
-      </small>
+        <h2>Sign In</h2>
+        <form action="#">
+            <div class="form-control">
+                <input type="text" required>
+                <label>Email or phone number</label>
+            </div>
+            <div class="form-control">
+                <input type="password" required>
+                <label>Password</label>
+            </div>
+            <button type="submit">Sign In</button>
+            <div class="form-help"> 
+                <div class="remember-me">
+                    <input type="checkbox" id="remember-me">
+                    <label for="remember-me">Remember me</label>
+                </div>
+                <a href="#">Need help?</a>
+            </div>
+        </form>
+        <p>New to Netflix? <a href="#">Sign up now</a></p>
+        <small>
+            This page is protected by Google reCAPTCHA to ensure you're not a bot. 
+            <a href="#">Learn more.</a>
+        </small>
     </div>
-    <footer class="about">
-      <h3>Questions? Call 000-800-919-1694</h3>
-      <div class="footer-second">
-        <ul>
-          <a href="https://twitter.com/DharmaSrujan" target="_blank">FAQ</a>
-          <a
-            href="https://www.linkedin.com/in/srujan-dharma-71808a273/"
-            target="_blank"
-            >Help Centre</a
-          >
-          <a href="https://github.com/srujan0404" target="_blank"
-            >Terms of Use</a
-          >
-          <a href="#">Privacy</a>
-        </ul>
-      </div>
-      <div class="footer-third">
-        <ul>
-          <a href="#">Cookie Preferences</a>
-          <a href="#">Corporate Information</a>
-        </ul>
-      </div>
-      <select class="dropdown">
-        <div class="">
-          <i class="fa-solid fa-globe"></i>
-          <div>
-            <option value="">English</option>
-            <option value="">Hindi</option>
-          </div>
-        </div>
-      </select>
-    </footer>
-    <div class="overlay"></div>
-  </body>
+</body>
 </html>
